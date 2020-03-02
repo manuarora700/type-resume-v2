@@ -18,4 +18,4 @@ npm run dev
 npm run build
 ```
 
-Inspired from [strml.net](https://www.strml.net/) and [Jakeal Baugh](http://codepen.io/jakealbaugh/)
+Inspired from [strml.net](https://www.strml.net/) and [Jake Albaugh](http://codepen.io/jakealbaugh/)
