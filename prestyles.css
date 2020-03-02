@@ -1,0 +1,60 @@
+/* I'm cheating a bit */
+
+html,
+body {
+  margin-top: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+pre {
+  overflow: auto;
+  max-height: 90%;
+  width: 100%;
+  border-radius: 1px; /* Prevents bad clipping in Chrome */
+}
+
+#content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 20px;
+}
+
+#header {
+  position: absolute;
+  bottom: 0;
+  height: 20px;
+  left: 0;
+  right: 0;
+  padding: 0 10px;
+}
+
+a:after {
+  content: "";
+  padding-right: 5px;
+  /* border-right-width: 1px; */
+  /* border-right-style: solid; */
+  border-color: inherit;
+}
+
+a:last-of-type:after {
+  border: none;
+}
+
+.footer__link:link,
+.footer__link:visited {
+  color: #f7f7f7;
+  background-color: #333;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: all 0.2s;
+}
+.footer__link:hover,
+.footer__link:active {
+  color: #7ed56f;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+  transform: rotate(5deg) scale(1.3);
+}

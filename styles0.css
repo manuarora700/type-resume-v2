@@ -1,0 +1,120 @@
+/**
+ *
+ * Hey. My name's Manu Arora. I'm a Full Stack Developer and frequent
+ * open source contributor.
+ *
+ * I build interactive websites and cool side projects.
+ *
+ * How about some live coding?
+ */
+
+/**
+ * Let's begin. We start by animating... well, everything.
+ */
+
+* {
+  -webkit-transition: all 1s;
+}
+
+/**
+ * That didn't do much. But you'll see.
+ *
+ * Black on white is really boring,
+ * so let's do something about it.
+ */
+
+html {
+  background: rgb(63, 82, 99);
+}
+
+/***
+ * Hold on...
+ */
+
+pre,
+a {
+  color: white;
+}
+
+/**
+ * That's better. Sorry about your eyes.
+ *
+ * Working in this big empty space is tough.
+ *
+ * I'm going to make a nice area for us to work in.
+ */
+
+pre:not(:empty) {
+  overflow: auto;
+  background: rgb(48, 48, 48);
+  border: 1px solid #ccc;
+  max-height: 93.1vh;
+  width: 49%;
+  font-size: 14px;
+  font-family: monospace;
+  padding: 1vh 0.5vw;
+  box-shadow: -4px 4px 2px 0 rgba(0, 0, 0, 0.3);
+  white-space: pre-wrap;
+  outline: 0;
+  margin: 1vh 0.5vw;
+}
+
+/**
+ * Okay. We're going to start filling up the screen.
+ * Let's get ready to do some work.
+ */
+
+#style-text {
+  -webkit-transform: translateX(95%);
+  position: absolute;
+}
+
+/**
+ * This is good, but all the text is white!
+ * Let's make it even more readable.
+ */
+
+.comment {
+  color: #857f6b;
+  font-style: italic;
+}
+.selector {
+  color: #e69f0f;
+}
+.selector .key {
+  color: #64d5ea;
+}
+.key {
+  color: #64d5ea;
+}
+.value {
+  color: #be84f2;
+}
+.value.px {
+  color: #f92772;
+}
+
+/**
+ * Now we're getting somewhere.
+ * Time to get a little perspective.
+ */
+
+body {
+  -webkit-perspective: 1000px;
+}
+
+#style-text {
+  -webkit-transform: translateX(98.5%) rotateY(-10deg);
+  -webkit-transform-origin: right;
+  max-height: 93.1vh;
+}
+
+/**
+ * So, let's talk projects. That's why you're here, right?
+ * I can't imagine you'd come just to see the pretty colors.
+ */
+
+pre:not(#style-text) {
+  -webkit-transform: rotateY(10deg);
+  -webkit-transform-origin: left;
+}

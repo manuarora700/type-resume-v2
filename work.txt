@@ -1,0 +1,40 @@
+manuarora.me
+=========
+
+Manu Arora
+Full Stack Web Developer (I love JavaScript)
+React / NodeJS / JavaScript / Laravel / PHP
+
+Projects
+--------
+
+* Brocode:      https://www.pure-fortress-78798.herokuapp.com/
+* FaceDetect:   https://face-webapp.herokuapp.com/
+* JSGallery:    https://manuarora700.github.io/jsgallery/
+* Geet:         www.github.com/manuarora700/music-streaming-project/
+* Emend:        www.github.com/manuarora700/emend-text-editor/
+* Natours:      https://manuarora700.github.io/work/advanced-css-project/
+* SpeedTyper:   https://manuarora700.github.io/work/speedtyper/
+and of course...
+* Work:         www.manuarora.me
+
+SKILLS & WORKFLOW 
+-----------
+
+* Comfortable with Git as VCS and Node workflow
+* Familar with modern Web Technologies like React.js and Node.js
+* Able to cope with the ever changing web landscape of syntax , APIs and frameworks
+* Had worked with these languages: JavaScript, C, C++, HTML, CSS and PHP
+
+Contact
+-------
+
+* manuarora700 at github dot com
+* manuarorawork at gmail dot com
+* @mannupaaji on Instagram
+* @mannupaaji on Twitter
+* manuarora.me
+
+
+
+
